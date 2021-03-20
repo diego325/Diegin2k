@@ -4,6 +4,9 @@ const help1 = (prefix) => {
 ┣QUALQUER COISA
 ┣CHAME O DONO
 ┣wa.me/+5511998346168
+
+`
 }
 exports.help1 = help1
+
 
