@@ -360,7 +360,8 @@ _⚡VARIADAS⚡_
   
  ⚡${prefix}dono⚡ para mais info
 
-〘 DIEGO  𝘽𝙊𝙏 〙`
+〘 DIEGO  𝘽𝙊𝙏 〙
+`
 }
 
 exports.help = help
