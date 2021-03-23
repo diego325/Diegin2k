@@ -681,7 +681,7 @@ const get = require('got')
 			reply("teu pai")
 	}
 	
-	if (messagesC.includes("tua mae")){
+	if (messagesC.includes("sua mae","tua mae")){
 			client.updatePresence(from, Presence.composing)
 			reply("a tua aquela cadela")
 			
@@ -1826,7 +1826,7 @@ case 'cep1':
 					anu = await fetchJson(`https://testesw.herokuapp.com/`, {method: 'get'})
 					ri = JSON.parse(JSON.stringify(anu));
 					ze =  ri[Math.floor(Math.random() * ri.length)];
-					nye = await getBuffer(ze)
+					nye = await getBuffer('ze')
 					client.sendMessage(from, nye, image, { caption: 'i love you, mia 🥺❤️', quoted: mek })
 					await limitAdd(sender) 	
 					break
